@@ -1,0 +1,41 @@
+#program 1
+
+if ( num % 2 == 0 )
+        System.out.println("Entered number is even");
+     else
+        System.out.println("Entered number is odd");
+        
+#program 2
+
+import java.util.Scanner;
+
+public class positivenegative {
+    public static void main(String[] args) {
+        int num;
+        Scanner input = new Scanner(System.in);
+        num = input.nextInt();
+        if ( num>0 )
+            System.out.println("Positive");
+        else if (num==0)
+            System.out.println("Zero");
+        else
+            System.out.println("Negative");
+    }
+}
+
+
+#program 3
+
+import java.util.Scanner;
+public class oddeven {
+    public static void main (String[] args) {
+        int num;
+        Scanner input = new Scanner(System.in);
+        num = input.nextInt();
+        if ( num % 2 == 0 )
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+
+    }
+}
