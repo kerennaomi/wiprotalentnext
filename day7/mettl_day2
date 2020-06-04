@@ -50,3 +50,42 @@ if(Math.abs(input5%2)!=0){
   }
 return count;
 
+#program 4
+
+int count =0;
+if(input6.equalsIgnoreCase("odd"){
+  if(Math.abs(input1%2)!=0){
+    count++;
+    }
+  if(Math.abs(input2%2)!=0){
+    count++;
+    }
+  if(Math.abs(input3%2)!=0){
+    count++;
+    }
+  if(Math.abs(input4%2)!=0){
+    count++;
+    }
+  if(Math.abs(input5%2)!=0){
+    count++;
+    }
+  }
+  else if(input6.equalsIgnoreCase("even"){
+    if(Math.abs(input1%2)==0){
+    count++;
+    }
+  if(Math.abs(input2%2)==0){
+    count++;
+    }
+  if(Math.abs(input3%2)==0){
+    count++;
+    } 
+  if(Math.abs(input4%2)==0){
+    count++;
+    }
+  if(Math.abs(input5%2)==0){
+    count++;
+    }
+    }
+  return count;
+
