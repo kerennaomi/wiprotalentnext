@@ -18,3 +18,13 @@ if (Math.abs(input1%2)!=0){
 
 return(Math.abs(input1%10));
 
+#program 4
+
+if(Integer.toString(input1).length()==0){
+            return -1;
+            }          
+            
+else{
+return(Math.abs((input1%100)/10));
+}
+
