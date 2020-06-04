@@ -31,3 +31,14 @@ public class printeven0to100 {
         }
     }
 }
+
+#program 4
+
+public class printbackwards {
+    public static void main(String[] args) {
+        for(int i=100; i>=0; i--) {
+            System.out.println(i);
+        }
+    }
+}
+
