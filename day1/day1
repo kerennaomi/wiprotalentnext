@@ -1,0 +1,17 @@
+strip = input()
+vowels= "aieouAEIOU"
+final= set([i for i in strip if i in vowels])
+ans=(list(final))
+if ans:
+    print(*ans)
+else:
+    print("Thank You")
+
+
+
+str1= input()
+str2= input()
+str1= str1.lower()
+str2= str2.lower()
+final= str1+str2
+print(''.join(sorted(set(final))))
