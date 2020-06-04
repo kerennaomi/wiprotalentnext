@@ -1,0 +1,7 @@
+#program 1
+
+if (Math.abs(n%2)==0){
+            return 2;
+        }
+        else
+            return 1;
