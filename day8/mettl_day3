@@ -38,3 +38,22 @@ while(d<=input1){
   d++;
 }
 return c;
+
+#program 4
+
+int base=2;
+int a=0,i,b=0, c=0;
+while(a<=input1){
+  for(i=2;i<base/2;i++){
+    if(base%i==0){
+      b++;
+}
+}
+  if(b==0){
+  d++;
+  c=base;
+}
+  base++;
+  b=0;
+}
+return c;
