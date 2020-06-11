@@ -1,0 +1,16 @@
+#program 1
+
+int base=2, i, a=0, count =0;
+while(input1<=input2){
+  for(i=2;i<input1;i++){
+    if(input1%i==0){
+      a++;
+  }
+}
+  if(a==0){
+    count++;
+}
+input1++;
+a=0;
+}
+return count;
