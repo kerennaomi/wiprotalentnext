@@ -14,3 +14,30 @@ input1++;
 a=0;
 }
 return count;
+
+#program 2
+
+int count=0, range;
+while(input1>0){
+  range=input1%10;
+  count++;
+  input1=input1/10;
+  }
+  return count;
+  
+
+#program 3
+
+int count=0, range;
+int arr[]=new int[10];
+while(1<=input1 && input1<=25000){
+  range=input1%10;
+  arr[range]++;
+  input1=input1/10;
+  }
+  for(int i=0; i<10; i++){
+    if(arr[i]>0){
+      count++;
+     }
+    }
+    return count;
